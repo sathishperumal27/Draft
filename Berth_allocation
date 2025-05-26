@@ -1,18 +1,17 @@
-0xa431e62069bab54619286e4394f0b90850b0ea96c3bad85d5bce38ad9b0a7ac1
+home/sathish/project/Berth_allocation-main/node_modules/@hashgraph/sdk/lib/account/AccountId.cjs:65
+    if (text.startsWith("0x") && text.length == 42 || text.length == 40) {
+             ^
 
-status	0x1 Transaction mined and execution succeed
-transaction hash	0x6b33c47fd288d8a2a257b770df6050756a39791d503052e930191c082e0c288c
-block hash	0xd950ffeb890925ed87e10adf7043eabed13b6c9b2815f7f58a069154c256152b
-block number	20075135
-contract address	0x8c831f7beff318400b23a002c11f652aa480cf12
-from	0x27c0eFEFc0f6aC27eA222722FE980F6D6cCD2F8D
-to	BerthAllocation.(fallback) 0x8c831f7beff318400b23a002c11f652aa480cf12
-gas	370313 gas
-transaction cost	370313 gas 
-input	0x608...a0033
-decoded input	-
-decoded output	 - 
-logs	[]
-raw logs	[]
+TypeError: Cannot read properties of undefined (reading 'startsWith')
+    at AccountId.fromString (/home/sathish/project/Berth_allocation-main/node_modules/@hashgraph/sdk/lib/account/AccountId.cjs:65:14)
+    at Object.<anonymous> (/home/sathish/project/Berth_allocation-main/backend/web3-config.js:7:30)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/sathish/project/Berth_allocation-main/backend/server.js:4:39)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
 
-contract id : 0.0.6055138
+Node.js v18.19.1
